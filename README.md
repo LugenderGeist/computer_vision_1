@@ -20,7 +20,7 @@
 ![Эрозия](https://github.com/LugenderGeist/computer_vision_1/blob/main/erosion.PNG)
   ### Дилатация
 Дилатация - также операция морфологической обработки изображений, но используется для уменьшения темных областей и увеличения светлых. Принцип работы такой функции аналогичен: центральный пиксель в обрабатываемой ядром матрице заменится на более светлый, если такой появиляется в процессе обработки ядром части изображения. 
-  Результат:  
+Результат:  
 ![Дилатация](https://github.com/LugenderGeist/computer_vision_1/blob/main/dilation.PNG)
   ## Фильтры
   ### Медианный фильтр
@@ -32,7 +32,16 @@
   Результат:  
 ![Медианный фильтр](https://github.com/LugenderGeist/computer_vision_1/blob/main/median.PNG)
   ### Фильтр Гаусса
-  Результат:  
+Результат:  
 ![Фильтр Гаусса](https://github.com/LugenderGeist/computer_vision_1/blob/main/gaussian.PNG)
   ## Бинаризация
+Бинаризация — это процесс преобразования изображения с множеством уровней яркости в изображение с двумя уровнями яркости: черный и белый (0 и 255). Для того, чтобы применить функцию бинаризации - переведем изображение в grayscale. Это необходимо, так как каждый из каналов RGB находится в пределах от 0 до 255, соответственно, при неправильном переводе в grayscale получится, что, например, значение 255 в канале blue равносильно значению 255 в канале red. Переведем изображение в grayscale:  
+![grayscale](https://github.com/LugenderGeist/computer_vision_1/blob/main/grayscale.PNG)
+Соответственно, функцию бинаризации применим к изображению в grayscale.
+Результат:  
+![Бинаризация](https://github.com/LugenderGeist/computer_vision_1/blob/main/binarisation.PNG)
+*Результат применения бинаризации к цветному изображению*  
+![Бинаризация_2](https://github.com/LugenderGeist/computer_vision_1/blob/main/binarisation_2.PNG)
   ## Корректировка освещения
+Результат:  
+![Корректировка](https://github.com/LugenderGeist/computer_vision_1/blob/main/corrected.PNG)
